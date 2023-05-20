@@ -370,7 +370,7 @@ button {
   padding-bottom: 30px;
 }
 .main {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 .grid {
   display: grid;
