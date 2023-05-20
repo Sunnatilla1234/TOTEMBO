@@ -41,10 +41,10 @@ nav::before {
   border-radius: 0.5px;
   padding-bottom: 20px;
 }
-.nav__item {
+.nav__item{
   display: flex;
 }
-.nav__list {
+.nav__list{
   display: flex;
 }
 .nav__link-t {
@@ -121,15 +121,13 @@ button {
 .header__box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 294px);
   gap: 24px;
+  padding-top: 50px;
 }
 .box {
-  width: 526px;
-  height: 275px;
   background: #e1e1e1;
   border-radius: 10px;
-  margin-top: 40px;
   position: relative;
 }
 .box::after {
@@ -168,14 +166,12 @@ button {
   gap: 21px;
 }
 .card__box {
-  width: 746px;
   height: 618px;
   background: #e1e1e1;
   border-radius: 10px;
   position: relative;
   grid-column: span 1;
   grid-row: span 2;
-  margin-top: 40px;
 }
 
 .card__box::after {
